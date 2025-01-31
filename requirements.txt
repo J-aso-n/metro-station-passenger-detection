@@ -1,0 +1,7 @@
+ultralytics
+openai-clip
+torchreid
+gdown
+
+numba
+filterpy
