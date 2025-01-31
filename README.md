@@ -1,12 +1,12 @@
-### metro-station-passenger-detection
+## metro-station-passenger-detection
 
-#### 介绍
+### 介绍
 
 基于yolo检测算法和deep_sort_oh跟踪算法的地铁站乘客检测任务。
 
 deep_sort_oh算法是在deep_sort_realtime的基础上采用sort_oh算法的思想进行优化而得，对于遮挡情况进行了优化。
 
-#### 项目结构
+### 项目结构
 
 run.py：程序运行入口
 
@@ -34,7 +34,7 @@ embedder文件夹：deepsort模型载入神经网络
 
 utils文件夹：包含nms非极大值抑制方法的实现
 
-#### 运行
+### 运行
 
 ```python
 pip install -r requirements.txt
@@ -43,11 +43,11 @@ py run.py
 
 注意run.py模型部分和视频名部分按需修改
 
-#### 结果
+### 结果
 
 ![2](./pic/2.png)
 
-#### 参考
+### 参考
 
 deep_sort_realtime源码：https://github.com/levan92/deep_sort_realtime/tree/master
 
