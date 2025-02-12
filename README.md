@@ -35,10 +35,11 @@ embedder文件夹：deepsort模型载入神经网络
 utils文件夹：包含nms非极大值抑制方法的实现
 
 ### 运行
+测试视频和模型权重可以在[这里]([https://markdown.com.cn "最好的markdown教程"](https://drive.google.com/drive/folders/1rgbXHBIE_35pof4PlErOeAIr6zXwgCh-))下载
 
 ```python
 pip install -r requirements.txt
-py run.py
+python run.py
 ```
 
 注意run.py模型部分和视频名部分按需修改
