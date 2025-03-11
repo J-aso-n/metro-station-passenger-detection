@@ -36,6 +36,7 @@ utils文件夹：包含nms非极大值抑制方法的实现
 
 ### 运行
 测试视频和模型权重可以在[这里](https://drive.google.com/drive/folders/1rgbXHBIE_35pof4PlErOeAIr6zXwgCh-)下载
+
 测试PyTorch版本2.5.1，Python版本3.12，Cuda版本12.4
 
 ```python
